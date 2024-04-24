@@ -1,0 +1,62 @@
+html {
+  background-image: url(bg/championsBackground.jpg);
+      /* background-color: black; */
+}
+
+/* thẻ div content */
+#content {
+  clear: both;
+  padding-top: 100px;
+  margin-left: 230px;
+  width: 70%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#content .beaufort-fontsize {
+  font-family: beaufort, Arial, sans-serif;
+  font-weight: 100;
+  color: #c4b998;
+  text-transform: uppercase;
+}
+.champion-header h1 {
+  letter-spacing: 5px;
+}
+#champion1{
+  background-color: black;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.champion2{
+  background-color:black;
+  width: 18%;
+  padding:10px;  
+  float: left;
+  /* box-sizing: border-box; */
+}
+.champion2 img{
+  width: 100%;
+}
+
+.champion2 h1{
+  color: #937341;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: beaufort;
+  font-weight: 1000;
+
+}
+
+.champion2 h2{
+  color: #c4b998;
+  font-size: 12px;
+  letter-spacing: .05em;  
+  padding-top: 6px;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+

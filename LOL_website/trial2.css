@@ -1,0 +1,7 @@
+@font-face{
+    src: url(font/BeaufortforLOL-Bold.woff.ttf);
+    font-family: beaufort;
+}
+.font123{
+    font-family: beaufort;
+}

@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+@font-face {
+  src: url(font/BeaufortforLOL-Bold.woff.ttf);
+  font-family: beaufort;
+}
+
+#header {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  background-color: #111;
+
+}
+
+#header .logo {
+  float: left;
+}
+
+#header .logo img {
+  height: 40px;
+  margin-left: 20px;
+
+}
+
+#header .icon {
+  float: left;
+}
+
+#header .icon img {
+  margin-left: 15px;
+}
+
+#nav {
+  float: left;
+  line-height: 50px;
+}
+
+#header .vutru {
+  float: left;
+  width: 15px;
+  padding-right: 50px;
+  padding-top: 4px;
+}
+
+#header a {
+  /* clear: both; */
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-family:
+    font-size: 15px;
+  font-weight: 550;
+  padding: 0 12px;
+}
+
+#nav>li {
+  display: inline-block;
+  /* position: relative; */
+}
+
+#nav .sub-nav {
+  display: none;
+  position: absolute;
+  padding: 10px 0;
+  list-style-type: none;
+}
+
+#nav>li:hover>a {
+  background-color: #292929;
+}
+
+#nav li:hover .sub-nav {
+  display: block;
+  /* background-color: #292929; */
+  min-width: 250px;
+}
+
+.sub-nav li:hover a {
+  background: #292929;
+
+}
+
+#footer1 {
+  clear: both;
+  padding-top: 40px;
+  width: 100%;
+  background-color: #111;
+
+}
+
+.footer2 {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.a-footer {
+  margin-left: 265px;
+}
+
+.footer2 p {
+  color: #7E7E7E;
+  font-size: 15px;
+  font-family: Neue Frutiger World, Tahoma, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer2 ul {
+
+
+  padding: 0 8%;
+}
+
+.footer2 ul li {
+  display: inline-block;
+  padding: 8px 16px;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.footer2 ul li a {
+  display: block;
+  text-decoration: none;
+  /* padding: 8px 16px; */
+  color: #f9f9f9;
+}
+
+.riot-games-rating-bar {
+  margin-left: 120px;
+}
